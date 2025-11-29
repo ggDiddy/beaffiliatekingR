@@ -1,0 +1,49 @@
+# robots.txt for beaffiliateking.com
+# Generated on 2025-11-26
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of certain directories (if applicable in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow specific assets
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://beaffiliateking.com/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+# Crawl-delay: 1
+
+# Block specific bots if needed (currently allowing all)
+# User-agent: BadBot
+# Disallow: /
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing-specific directives
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Mobile crawlers
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Allow social media crawlers for og:image tags
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
