@@ -801,6 +801,26 @@ section {
     color: var(--color-gray);
 }
 
+/* Blog Starts */
+.blog-h1 {
+    color: var(--color-primary-dark);
+    padding-top: 3rem;
+}
+
+.post-blog {
+    color: gray;
+    margin-bottom: 4rem;
+}
+
+.post-content h2 {
+    margin-left:1rem ;
+    margin-top: 3rem;
+    color: #253a57;
+}
+
+
+/* Blog Ends */
+
 /* Footer */
 .site-footer {
     background: var(--color-dark);
