@@ -1,5 +1,5 @@
 # robots.txt for beaffiliateking.com
-# Generated on 2025-11-26
+# Generated on 2026-01-03
 
 # Allow all search engines to crawl the site
 User-agent: *
